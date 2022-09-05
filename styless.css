@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.486);
+    font-size: 50px;
+}
+
+.Lista ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.Lista ul li {
+    position: relative;
+    list-style: none;
+}
+
+.Lista ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+.Lista ul li a:hover {
+    border-bottom: 2px dotted white;
+    color: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0))
+}
